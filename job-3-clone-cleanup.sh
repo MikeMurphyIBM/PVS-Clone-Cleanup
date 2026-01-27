@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ################################################################################
-# JOB 3: ENVIRONMENT CLEANUP & ROLLBACK (NO SNAPSHOTS)
+# JOB 4: ENVIRONMENT CLEANUP & ROLLBACK (NO SNAPSHOTS)
 # Purpose: Clean up backup environment - shutdown LPAR, detach/delete volumes,
 #          optionally delete LPAR
 # Dependencies: IBM Cloud CLI, PowerVS plugin, jq
@@ -29,7 +29,7 @@ set -eu
 ################################################################################
 echo ""
 echo "========================================================================"
-echo " JOB 3: ENVIRONMENT CLEANUP & ROLLBACK"
+echo " JOB 4: CLONE ENVIRONMENT CLEANUP & ROLLBACK"
 echo " Purpose: Return environment to clean state for next backup cycle"
 echo "========================================================================"
 echo ""
@@ -504,7 +504,7 @@ echo ""
 ################################################################################
 echo ""
 echo "========================================================================"
-echo " JOB 3: COMPLETION SUMMARY"
+echo " JOB 4: COMPLETION SUMMARY"
 echo "========================================================================"
 echo ""
 echo "  Status:                      ✓ SUCCESS"
